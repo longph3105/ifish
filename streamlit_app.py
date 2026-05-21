@@ -100,3 +100,8 @@ if img_source is not None:
         file_name=default_out_name,
         mime="image/png"
     )
+
+
+with st.bottom:
+    with st.expander("View Privacy Notice"):
+        st.write("This website is a personal project hosted on Railway and proxied via Cloudflare. I do not use tracking cookies or store any personal data. Any images you upload are processed entirely in your session's volatile memory and are completely discarded immediately after rendering.")
